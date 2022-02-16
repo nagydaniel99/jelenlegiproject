@@ -1,0 +1,165 @@
+body {
+  margin: 0;
+  font-size: 14px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #444;
+  background-color: pink;
+}
+#menu_wrapper {
+  width: 100%; /* teljes képernyő */
+  background-color: #eee;
+  height: 50px;
+  border-bottom: 1px solid black;
+}
+#menu {
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#menu h1 {
+  float: left;
+  font-size: 2rem;
+  margin: 0;
+  padding: 0;
+}
+#menu ul {
+  float: right;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+#menu ul li {
+  float: left;
+  font-size: 17px;
+}
+#menu ul li a {
+  text-decoration: none;
+  padding: 14px 16px;
+  display: block;
+  color: grey;
+}
+#menu ul li a:hover {
+  color: black;
+  transform: scale(1,1.2);
+  transition-duration: 300ms;
+}
+#banner img {
+  width: 100%;
+  margin: 0;
+}
+#szolgaltatasok {
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  height: fit-content;
+  margin-top: 50px;
+}
+#szolgaltatasok h1 {
+  text-align: center;
+  font-size: 2rem;
+}
+#szolgaltatasok p {
+  text-align: center;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.doboz {
+  float: left;
+  margin: 10px;
+  border: 1px solid #ccc;
+  width: calc(33.33% - 22px);
+  background-color: #e6ccdf;
+  color: black;
+  text-align: center;
+}
+.keret {
+  width: 45px;
+  height: 45px;
+  background-color: orangered;
+  display: inline-block;
+  border-radius: 50%;
+  margin-top: 5px;
+}
+.keret i {
+  text-align: center;
+  font-size: 1.3rem;
+  margin-top: 12px;
+}
+
+.doboz:hover {
+  box-shadow: 10px 10px 50px 10px rgba(23, 24, 24, 0.548);
+}
+
+#video {
+  background: url("img/video.jpg");
+  height: 300px;
+  margin-top: 50px;
+}
+.overlay {
+  width: 100%;
+  height: 300px;
+  background-color: red;
+  opacity: 0.1;
+}
+#video h1 {
+  text-align: center;
+  margin-top: -200px;
+  color: white;
+  position: relative;
+  font-size: 4rem;
+  font-weight: bold;
+  text-shadow: 4px 4px #000;
+}
+.kep {
+  float: left;
+  width: calc(33.33% - 22px);
+  margin: 10px;
+  border: 1px solid #ddd;
+  overflow: hidden;
+  cursor: pointer;
+}
+#munkaim img {
+  width: 100%;
+}
+#munkaim h1 {
+  font-size: 2rem;
+  text-align: center;
+}
+#munkaim p {
+  text-align: center;
+}
+.kep img:hover {
+  transform: scale(1.1);
+  transition-duration: 1000ms;
+}
+p {
+  color: grey;
+  font-weight: bold;
+}
+h2 {
+  color: rgb(202, 0, 252);
+}
+.summoner {
+  background: url("ok.jpg");
+  height: 300px;
+  margin-top: 50px;
+}
+.summoner h1 {
+  text-align: center;
+  margin-top: -200px;
+  color: white;
+  position: relative;
+  font-size: 4rem;
+  font-weight: bold;
+  text-shadow: 4px 4px #000;
+}
+a {
+    color: wheat;
+  }
+.summoner h1:hover{
+    transform: scale(1,1.2);
+    transition-duration: 1000ms;
+}
+
+
+
